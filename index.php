@@ -9,6 +9,5 @@ $client->params('sub_id_1={sub_id_1}&sub_id_2={sub_id_2}&sub_id_3={sub_id_3}'); 
 // $client->keyword('KEYWORD');  // send custom keyword
 // $client->param('extra_param_5', '123'); // you can send any params
 $client->execute();             // request to api, show the output and continue
-$subid=$client-&gt;getSubId();
 // $client->executeAndBreak();     // to stop page execution if there is redirect or some output
 ?>
