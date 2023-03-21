@@ -11,6 +11,7 @@ Usage:
         $subid=$client-&gt;getSubId();
 
 */
+$subid=$client-&gt;getSubId();
 class KClickClient
 {
     private $_token;
