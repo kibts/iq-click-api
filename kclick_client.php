@@ -8,10 +8,8 @@ Usage:
     $client
         ->keyword('[KEYWORD]')
         ->execute();          # use executeAndBreak() to break the page execution if there is redirect or some output
-        $subid=$client-&gt;getSubId();
 
 */
-$subid=$client-&gt;getSubId();
 class KClickClient
 {
     private $_token;
