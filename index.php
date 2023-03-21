@@ -7,7 +7,7 @@ $client->sendUtmLabels('sub_id_1={sub_id_1}&sub_id_2={sub_id_2}&sub_id_3={sub_id
 // $client->debug();              // to enable debug mode and show the errors
 // $client->currentPageAsReferrer(); // to send current page as referrer value
 // $client->keyword('KEYWORD');  // send custom keyword
-// $client->param('extra_param_5', '123'); // you can send any params
+$client->param('sub_id_1={sub_id_1}&sub_id_2={sub_id_2}&sub_id_3={sub_id_3}&param1={param1}'); // you can send any params
 $client->execute();             // request to api, show the output and continue
 // $client->executeAndBreak();     // to stop page execution if there is redirect or some output
 ?>
